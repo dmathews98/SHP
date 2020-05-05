@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'Report.blg'
+[45] biber-darwin:313> INFO - === Tue Nov 26, 2019, 12:49:40
+[70] Biber.pm:371> INFO - Reading 'Report.bcf'
+[165] Biber.pm:857> INFO - Found 28 citekeys in bib section 0
+[181] Biber.pm:3976> INFO - Processing section 0
+[192] Biber.pm:4136> INFO - Looking for bibtex format file 'shp_ref.bib' for section 0
+[194] bibtex.pm:1500> INFO - LaTeX decoding ...
+[231] bibtex.pm:1316> INFO - Found BibTeX data source 'shp_ref.bib'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[350] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[351] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[373] bbl.pm:617> INFO - Writing 'Report.bbl' with encoding 'UTF-8'
+[382] bbl.pm:720> INFO - Output to Report.bbl

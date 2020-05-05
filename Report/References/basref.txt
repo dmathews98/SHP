@@ -1,0 +1,40 @@
+- http://www.webmineral.com/data/Brucite.shtml#.XdGQsTL7TOQ - literature values?
+- https://cms.mpi.univie.ac.at/vasp/vasp/vasp.html - VASP
+- https://wiki.rc.ucl.ac.uk/wiki/Thomas - Thomas
+
+- 2 papers saved from Dr. Hermann
+
+- Chemical physics paper, Tevino et al
+
+- Mookherjee & Stixrude
+
+[COMPMOD] - compmod
+[ETREE] - Element Tree
+[VESTA] - VESTA
+[VASP] - VASP
+[VMD] - VMD
+[THOMAS] - Thomas 
+[1] - Key Paper Hermann
+[2] water in earths mantle DAVID R. BELL AND GEORGE R. RossMAN
+[3] peacock water and earthquakes
+[4] -other key paper
+[5] pressure induced H bonding Paise et all
+[6] catti et all static compression
+[7] born opp approx
+[8] inhomogeneous e- gas kohnberg 
+[9] dft intro
+[10] Self-Consistent Equations Including Exchange and Correlation Effects kohn sham
+[11] simple dynamic exch corr constantin et all
+
+[16] . P. Perdew and Y. Wang, Phys. Rev. B 45, 13 244 (1992), and references therein.
+
+[12] dft straying medvedev
+[13] DFT and advanced course Eberhard EngelReiner M. Dreizler
+[14] Assessment of the Perdew–Burke–Ernzerhof exchange-correlation functional Matthias Ernzerhof, and Gustavo E. Scuseria
+[15] Generalized Gradient Approximation Made Simple John P. Perdew, Kieron Burke,* Matthias Ernzerhof
+
+[17] introduction to Plane-Wave Basis Sets and Pseudopotential Theory Eric J. Bylaska accessed 21/11/19 1300
+[18] Über die Quantenmechanik der Elektronen in Kristallgittern bloch
+[19] Mean-Value Point in the Brillouin Zone -baldereschi
+[20] Jan Naudts Generalised Thermostatistics
+[21] Sampling the Brillouin-zone: Martijn MARSMAN Institut f ¨ur Materialphysik and Center for Computational Materials Science Universitat Wien, Sensengasse 8, A-1090 Wien, Austria accessed 21/11/19 1600 

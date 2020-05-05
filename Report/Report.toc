@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Background}{3}
+\contentsline {subsection}{\numberline {2.1}Structure change}{3}
+\contentsline {subsection}{\numberline {2.2}Molecular Dynamics (MD)}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Density Functional Theory (DFT)}{4}
+\contentsline {subsection}{\numberline {2.3}Vienna Ab-initio Simulation Package (VASP)}{6}
+\contentsline {subsubsection}{\numberline {2.3.1}Input files}{6}
+\contentsline {subsubsection}{\numberline {2.3.2}$k$-point sampling}{6}
+\contentsline {subsubsection}{\numberline {2.3.3}Structure optimisation at constant pressure}{7}
+\contentsline {subsubsection}{\numberline {2.3.4}MD}{7}
+\contentsline {subsection}{\numberline {2.4}Analysis techniques}{7}
+\contentsline {subsubsection}{\numberline {2.4.1}Mean Square Displacement (MSD)}{7}
+\contentsline {subsubsection}{\numberline {2.4.2}Radial Distribution Function (RDF) and Partial Distribution Function (PDF)}{8}
+\contentsline {section}{\numberline {3}Method}{10}
+\contentsline {subsection}{\numberline {3.1}Structure optimisation and energy of ground state phases comparison}{10}
+\contentsline {subsection}{\numberline {3.2}MD pressure and temperature values}{10}
+\contentsline {subsection}{\numberline {3.3}MD settings}{10}
+\contentsline {subsection}{\numberline {3.4}SMASS testing and setting}{10}
+\contentsline {subsection}{\numberline {3.5}MSD}{11}
+\contentsline {subsubsection}{\numberline {3.5.1}Dealing with minimum image convention}{11}
+\contentsline {subsection}{\numberline {3.6}RDFs and PDFs}{12}
+\contentsline {subsection}{\numberline {3.7}Simulation viewing, structure production and distribution mapping}{12}
+\contentsline {section}{\numberline {4}Results \& Discussion}{13}
+\contentsline {subsection}{\numberline {4.1}Structure optimisation energies}{13}
+\contentsline {subsection}{\numberline {4.2}MSD}{13}
+\contentsline {subsection}{\numberline {4.3}Hydrogen distribution and movement}{16}
+\contentsline {subsection}{\numberline {4.4}RDF and PDF}{18}
+\contentsline {subsection}{\numberline {4.5}Pressure-temperature graph}{20}
+\contentsline {section}{\numberline {5}Conclusion}{22}
+\contentsline {section}{\numberline {6}Acknowledgements}{22}
+\contentsline {section}{\numberline {7}References}{23}
+\contentsline {section}{\numberline {A}INCAR files}{24}
+\contentsline {section}{\numberline {B}Code extracts}{25}
+\contentsline {section}{\numberline {C}Optimised unit cell structures}{27}

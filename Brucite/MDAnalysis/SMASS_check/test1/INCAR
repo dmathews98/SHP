@@ -1,0 +1,28 @@
+# output options
+LWAVE  = .FALSE. # write or don't write WAVECAR
+LCHARG = .FALSE. # write or don't write CHG and CHGCAR
+LELF   = .FALSE. # write ELF
+NWRITE = 0       # reduced OUTCAR write volume
+
+# MD setup
+IBRION = 0       # 0=MD
+NSW = 10000      # number of ionic steps
+POTIM  = 0.5     # timestep in fs  
+SMASS  = 1       # thermostat setting
+NBLOCK = 50      # write-out frequency
+TEBEG = 600
+TEEND = 600
+
+# precision parameters
+EDIFF = 1E-6
+PREC = normal     # precision low, med, high, accurate
+
+# electronic relaxation
+ALGO   = Very Fast
+LREAL  = A
+NELMIN = 4
+ISMEAR = -1       # -5 = tetraedon, 1..N = Methfessel
+SIGMA  = 0.043
+ENCUT  = 400      # cutoff energy
+
+NCORE = 6

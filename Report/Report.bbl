@@ -1,0 +1,834 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{HermannKey}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f605b4edcc43958eb014030ae71d4677}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2313f9e09e06df9318213705d50eaf62}{%
+           family={Mookherjee},
+           familyi={M\bibinitperiod},
+           given={Mainak},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \strng{fullhash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \strng{bibnamehash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \strng{authorbibnamehash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \strng{authornamehash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \strng{authorfullhash}{d0f4712ac78f9f902e2efc9f942bc757}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{49}
+      \field{title}{High-pressure phase of brucite stable at Earth{’}s mantle transition zone and lower mantle conditions}
+      \field{volume}{113}
+      \field{year}{2016}
+      \field{pages}{13971\bibrangedash 13976}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1611571113
+      \endverb
+    \endentry
+    \entry{VESTA}{article}{}
+      \name{author}{2}{}{%
+        {{hash=260d1646c5753a3f191964271ea119f4}{%
+           family={Momma},
+           familyi={M\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5060be891f687b585a679fd259c120e7}{%
+           family={Izumi},
+           familyi={I\bibinitperiod},
+           given={Fujio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{fullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{bibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorbibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authornamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorfullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{number}{6}
+      \field{title}{{{\it VESTA3} for three-dimensional visualization of crystal, volumetric and morphology data}}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{1272\bibrangedash 1276}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1107/S0021889811038970
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S0021889811038970
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S0021889811038970
+      \endverb
+    \endentry
+    \entry{BELL1391}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7c2fede130008fcc8396e434bc0a0fb9}{%
+           family={BELL},
+           familyi={B\bibinitperiod},
+           given={DAVID\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c4d255245a38300be22af792627e348f}{%
+           family={ROSSMAN},
+           familyi={R\bibinitperiod},
+           given={GEORGE\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{15a9904846de0206af684758aded2829}
+      \strng{fullhash}{15a9904846de0206af684758aded2829}
+      \strng{bibnamehash}{15a9904846de0206af684758aded2829}
+      \strng{authorbibnamehash}{15a9904846de0206af684758aded2829}
+      \strng{authornamehash}{15a9904846de0206af684758aded2829}
+      \strng{authorfullhash}{15a9904846de0206af684758aded2829}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5050}
+      \field{title}{Water in Earth{’}s Mantle: The Role of Nominally Anhydrous Minerals}
+      \field{volume}{255}
+      \field{year}{1992}
+      \field{pages}{1391\bibrangedash 1397}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1126/science.255.5050.1391
+      \endverb
+    \endentry
+    \entry{peacockwater}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ab6c1bd174134ebd9f7f71f23f9992e6}{%
+           family={Peacock},
+           familyi={P\bibinitperiod},
+           given={Simon\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=289a6c66f6db285f80ef4c632e261e72}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Roy\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \strng{fullhash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \strng{bibnamehash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \strng{authorbibnamehash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \strng{authornamehash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \strng{authorfullhash}{d9c661e9ce387f34e064fe6d951f79ce}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{16}
+      \field{title}{Hydrous minerals in the mantle wedge and the maximum depth of subduction thrust earthquakes}
+      \field{volume}{26}
+      \field{year}{1999}
+      \field{pages}{2517\bibrangedash 2520}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1029/1999GL900558
+      \endverb
+    \endentry
+    \entry{VASP}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cms.mpi.univie.ac.at/vasp/vasp/vasp.html}}
+      \field{note}{Last accessed on: 25/11/2019}
+      \field{title}{Vienna Ab-initio Simulation Package}
+    \endentry
+    \entry{THOMAS}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://wiki.rc.ucl.ac.uk/wiki/Thomas}}
+      \field{note}{Last accessed on: 25/11/19}
+      \field{title}{Thomas UCL}
+    \endentry
+    \entry{VMD}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ks.uiuc.edu/Research/vmd/}}
+      \field{note}{Last accessed on: 25/11/19}
+      \field{title}{Visual Molecular Dynamics}
+    \endentry
+    \entry{RaugeiKey}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3b5995f223d02729dbe9f65cae163293}{%
+           family={Raugei},
+           familyi={R\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b5fc0cefdfc46cc12130044eaf866052}{%
+           family={Silvestrelli},
+           familyi={S\bibinitperiod},
+           given={Pier},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f595160245adfcee55d0a5e4cdcd751}{%
+           family={Parrinello},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc906300793db4ae49f1e81375458ee1}
+      \strng{fullhash}{3ab1203255aebe2e9572fb4c5713eef5}
+      \strng{bibnamehash}{3ab1203255aebe2e9572fb4c5713eef5}
+      \strng{authorbibnamehash}{3ab1203255aebe2e9572fb4c5713eef5}
+      \strng{authornamehash}{fc906300793db4ae49f1e81375458ee1}
+      \strng{authorfullhash}{3ab1203255aebe2e9572fb4c5713eef5}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters - PHYS REV LETT}
+      \field{month}{09}
+      \field{title}{Pressure-Induced Frustration and Disorder in Mg\(OH\)2 and Ca\(OH\)2}
+      \field{volume}{83}
+      \field{year}{1999}
+      \field{pages}{2222\bibrangedash 2225}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.83.2222
+      \endverb
+    \endentry
+    \entry{PressHBond}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c37019ba7d846c2941c199bfc4e30c9f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={John\bibnamedelimb B.\bibnamedelimi Parise},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \strng{fullhash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \strng{bibnamehash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \strng{authorbibnamehash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \strng{authornamehash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \strng{authorfullhash}{c37019ba7d846c2941c199bfc4e30c9f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Mineralogist}
+      \field{title}{Pressure Induced H bonding: Neutron diffraction study of brucite Mg(OD)_2, to 9.3 GPa}
+      \field{volume}{79}
+      \field{year}{1994}
+      \field{pages}{193\bibrangedash 196}
+      \range{pages}{4}
+    \endentry
+    \entry{Catti1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=62d895702953cfec09cc517325dcc1f9}{%
+           family={Catti},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi et\bibnamedelima al},
+           giveni={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{62d895702953cfec09cc517325dcc1f9}
+      \strng{fullhash}{62d895702953cfec09cc517325dcc1f9}
+      \strng{bibnamehash}{62d895702953cfec09cc517325dcc1f9}
+      \strng{authorbibnamehash}{62d895702953cfec09cc517325dcc1f9}
+      \strng{authornamehash}{62d895702953cfec09cc517325dcc1f9}
+      \strng{authorfullhash}{62d895702953cfec09cc517325dcc1f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics and Chemistry of Minerals}
+      \field{number}{3}
+      \field{title}{Static compression and H disorder in brucite, Mg(OH)2, to 11 GPa: a powder neutron diffraction study}
+      \field{volume}{22}
+      \field{year}{1995}
+      \field{pages}{200\bibrangedash 206}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF00202300
+      \endverb
+    \endentry
+    \entry{BornOpp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=72ea6dce637b29cda9b355647a0148fd}{%
+           family={M.\bibnamedelimi Born},
+           familyi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={J.\bibnamedelimi R.\bibnamedelimi Oppenheimer},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{72ea6dce637b29cda9b355647a0148fd}
+      \strng{fullhash}{72ea6dce637b29cda9b355647a0148fd}
+      \strng{bibnamehash}{72ea6dce637b29cda9b355647a0148fd}
+      \strng{authorbibnamehash}{72ea6dce637b29cda9b355647a0148fd}
+      \strng{authornamehash}{72ea6dce637b29cda9b355647a0148fd}
+      \strng{authorfullhash}{72ea6dce637b29cda9b355647a0148fd}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Annalen der Physik}
+      \field{title}{Zur Quantentheorie der Molekeln}
+      \field{volume}{389}
+      \field{year}{1927}
+      \field{pages}{457\bibrangedash 484}
+      \range{pages}{28}
+    \endentry
+    \entry{InhomegasHohenberg}{article}{}
+      \name{author}{2}{}{%
+        {{hash=21f1804fbaac28705e8a24d20e30c6f1}{%
+           family={Hohenberg},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a428f3cafd6e60e94ad9498f2a2456d7}{%
+           family={Kohn},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c3c5d7493992738736b5c70342d8ca5f}
+      \strng{fullhash}{c3c5d7493992738736b5c70342d8ca5f}
+      \strng{bibnamehash}{c3c5d7493992738736b5c70342d8ca5f}
+      \strng{authorbibnamehash}{c3c5d7493992738736b5c70342d8ca5f}
+      \strng{authornamehash}{c3c5d7493992738736b5c70342d8ca5f}
+      \strng{authorfullhash}{c3c5d7493992738736b5c70342d8ca5f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3B}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Inhomogeneous Electron Gas}
+      \field{volume}{136}
+      \field{year}{1964}
+      \field{pages}{B864\bibrangedash B871}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.136.B864
+      \endverb
+    \endentry
+    \entry{DFTintro}{book}{}
+      \list{publisher}{1}{%
+        {John Wiley & Sons, Ltd}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Density Functional Theory: An Introduction}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1002/9780470447710.ch1
+      \endverb
+    \endentry
+    \entry{ExCKohnSham}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a428f3cafd6e60e94ad9498f2a2456d7}{%
+           family={Kohn},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a9d9f075c7e8c18b9c06601a25adf027}{%
+           family={Sham},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \strng{fullhash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \strng{bibnamehash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \strng{authorbibnamehash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \strng{authornamehash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \strng{authorfullhash}{5b7d81f251726a319b8bdd4490ce4fd3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4A}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Self-Consistent Equations Including Exchange and Correlation Effects}
+      \field{volume}{140}
+      \field{year}{1965}
+      \field{pages}{A1133\bibrangedash A1138}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.140.A1133
+      \endverb
+    \endentry
+    \entry{Constantin}{article}{}
+      \name{author}{2}{}{%
+        {{hash=03272d568cf0494389c05836aff9d9c9}{%
+           family={Constantin},
+           familyi={C\bibinitperiod},
+           given={Lucian\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=58b5db28751174abbc710810112e0087}{%
+           family={Pitarke},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{8349ca2484190173ed32dd64cf492478}
+      \strng{fullhash}{8349ca2484190173ed32dd64cf492478}
+      \strng{bibnamehash}{8349ca2484190173ed32dd64cf492478}
+      \strng{authorbibnamehash}{8349ca2484190173ed32dd64cf492478}
+      \strng{authornamehash}{8349ca2484190173ed32dd64cf492478}
+      \strng{authorfullhash}{8349ca2484190173ed32dd64cf492478}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Simple dynamic exchange-correlation kernel of a uniform electron gas}
+      \field{volume}{75}
+      \field{year}{2007}
+      \field{pages}{245127}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.75.245127
+      \endverb
+    \endentry
+    \entry{PerdewJohnWang}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f7d11de7da27036e0c12d4055b2fb92d}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=471e61c37bc3e62dbe8655e02a002343}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \strng{fullhash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \strng{bibnamehash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \strng{authorbibnamehash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \strng{authornamehash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \strng{authorfullhash}{d87a99eace08209e66cecfe6b6ae36ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Accurate and simple analytic representation of the electron-gas correlation energy}
+      \field{volume}{45}
+      \field{year}{1992}
+      \field{pages}{13244\bibrangedash 13249}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.45.13244
+      \endverb
+    \endentry
+    \entry{Medvedev49}{article}{}
+      \name{author}{5}{}{%
+        {{hash=65df6478ddda264fe39b3d5eefb1744d}{%
+           family={Medvedev},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=563aff1e6cbcc33bcc26aa8c19d6ab64}{%
+           family={Bushmarinov},
+           familyi={B\bibinitperiod},
+           given={Ivan\bibnamedelima S.},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a41e9944590c5acae5c314ea7c27e388}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f7d11de7da27036e0c12d4055b2fb92d}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=002ebd52ad34ef8dbb48093ce39a232b}{%
+           family={Lyssenko},
+           familyi={L\bibinitperiod},
+           given={Konstantin\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{f5ab683b38aca34e9d8edce76447edb9}
+      \strng{fullhash}{8d1be6cf19ebcd1ba2ae0a674f0adf12}
+      \strng{bibnamehash}{8d1be6cf19ebcd1ba2ae0a674f0adf12}
+      \strng{authorbibnamehash}{8d1be6cf19ebcd1ba2ae0a674f0adf12}
+      \strng{authornamehash}{f5ab683b38aca34e9d8edce76447edb9}
+      \strng{authorfullhash}{8d1be6cf19ebcd1ba2ae0a674f0adf12}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6320}
+      \field{title}{Density functional theory is straying from the path toward the exact functional}
+      \field{volume}{355}
+      \field{year}{2017}
+      \field{pages}{49\bibrangedash 52}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.aah5975
+      \endverb
+    \endentry
+    \entry{DFTA}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d20f10ebba7ea0348e55af23ae218634}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={Eberhard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e49607fbbd6a2a6d6eb738e8efb56a1c}{%
+           family={Dreizler},
+           familyi={D\bibinitperiod},
+           given={Reiner\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \strng{fullhash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \strng{bibnamehash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \strng{authorbibnamehash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \strng{authornamehash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \strng{authorfullhash}{7bc671c4693d022d4ecde3dcbd3bbba2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Theoretical and Mathematical Physics}
+      \field{title}{Density Functional Theory: An Advanced Course}
+      \field{year}{2011}
+    \endentry
+    \entry{AssessPBE}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ccb694b80578a814211265eb307fdcde}{%
+           family={Ernzerhof},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2344ccf562c26dc9eae25808fc333f9b}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{39a1d49f936b6d636c896a28d4faa655}
+      \strng{fullhash}{39a1d49f936b6d636c896a28d4faa655}
+      \strng{bibnamehash}{39a1d49f936b6d636c896a28d4faa655}
+      \strng{authorbibnamehash}{39a1d49f936b6d636c896a28d4faa655}
+      \strng{authornamehash}{39a1d49f936b6d636c896a28d4faa655}
+      \strng{authorfullhash}{39a1d49f936b6d636c896a28d4faa655}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{number}{11}
+      \field{title}{Assessment of the Perdew–Burke–Ernzerhof exchange-correlation functional}
+      \field{volume}{110}
+      \field{year}{1999}
+      \field{pages}{5029\bibrangedash 5036}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1063/1.478401
+      \endverb
+    \endentry
+    \entry{PBE}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f7d11de7da27036e0c12d4055b2fb92d}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=33a535778ce96cdd2d59799deeea173d}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Kieron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ccb694b80578a814211265eb307fdcde}{%
+           family={Ernzerhof},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0244884b5201dd2e825364bdb25fd96e}
+      \strng{fullhash}{1acfabd837046dffa1a0fc3d22c2f827}
+      \strng{bibnamehash}{1acfabd837046dffa1a0fc3d22c2f827}
+      \strng{authorbibnamehash}{1acfabd837046dffa1a0fc3d22c2f827}
+      \strng{authornamehash}{0244884b5201dd2e825364bdb25fd96e}
+      \strng{authorfullhash}{1acfabd837046dffa1a0fc3d22c2f827}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Generalized Gradient Approximation Made Simple}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{3865\bibrangedash 3868}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.77.3865
+      \endverb
+    \endentry
+    \entry{PAWintro}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f4ce08c7ec7445546e23f00ac33591a2}{%
+           family={Bylaska},
+           familyi={B\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \strng{fullhash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \strng{bibnamehash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \strng{authorbibnamehash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \strng{authornamehash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \strng{authorfullhash}{f4ce08c7ec7445546e23f00ac33591a2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.nwchem-sw.org/images/Pw-lecture.pdf}}
+      \field{note}{Accessed on: 21/11/19}
+      \field{title}{Introduction to Plane-Wave Basis Sets and Pseudopotential Theory}
+    \endentry
+    \entry{Bloch1929}{article}{}
+      \name{author}{1}{}{%
+        {{hash=af478cd942c7ec58dc0b0928d033479a}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{fullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{bibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorbibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authornamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorfullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift f{ü}r Physik}
+      \field{number}{7}
+      \field{title}{{Ü}ber die Quantenmechanik der Elektronen in Kristallgittern}
+      \field{volume}{52}
+      \field{year}{1929}
+      \field{pages}{555\bibrangedash 600}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1007/BF01339455
+      \endverb
+    \endentry
+    \entry{KPoints}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=43621a112226e77bf9010c1902783563}{%
+           family={Marsman},
+           familyi={M\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{43621a112226e77bf9010c1902783563}
+      \strng{fullhash}{43621a112226e77bf9010c1902783563}
+      \strng{bibnamehash}{43621a112226e77bf9010c1902783563}
+      \strng{authorbibnamehash}{43621a112226e77bf9010c1902783563}
+      \strng{authornamehash}{43621a112226e77bf9010c1902783563}
+      \strng{authorfullhash}{43621a112226e77bf9010c1902783563}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://wiki.bnl.gov/CFN-Computation/images/3/34/K-point.pdf}}
+      \field{note}{Accessed on: 21/11/19}
+      \field{title}{Sampling the Brillouin Zone}
+    \endentry
+    \entry{Baldereschi}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08cf31a4d2d4b871ab4b5d10068f8fda}{%
+           family={Baldereschi},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \strng{fullhash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \strng{bibnamehash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \strng{authorbibnamehash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \strng{authornamehash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \strng{authorfullhash}{08cf31a4d2d4b871ab4b5d10068f8fda}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Mean-Value Point in the Brillouin Zone}
+      \field{volume}{7}
+      \field{year}{1973}
+      \field{pages}{5212\bibrangedash 5215}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.7.5212
+      \endverb
+    \endentry
+    \entry{GTherm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3f52c8e629ba7df2c65ed0aec43e6b8a}{%
+           family={Naudts},
+           familyi={N\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \strng{fullhash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \strng{bibnamehash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \strng{authorbibnamehash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \strng{authornamehash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \strng{authorfullhash}{3f52c8e629ba7df2c65ed0aec43e6b8a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Generalised thermostatistics}
+      \field{year}{2011}
+    \endentry
+    \entry{Compmod}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{Computer Modelling Project B Instructions}
+    \endentry
+    \entry{ETree}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.python.org/2/library/xml.etree.elementtree.html}}
+      \field{note}{Last accessed on: 21/11/2019}
+      \field{title}{Element Tree}
+    \endentry
+    \entry{Aoki}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0fcb8346ef1d0064c96e1567fbca4432}{%
+           family={Aoki},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1c75bc0127fb530f187a6f22e4dc1ce3}{%
+           family={Katoh},
+           familyi={K\bibinitperiod},
+           given={Eriko},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b1e47edc258637f5fbcfbd42aba31a54}{%
+           family={Yamawaki},
+           familyi={Y\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=05f1c982ad7d7170639f9b7569b8e70b}{%
+           family={Fujihisa},
+           familyi={F\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0c0114c70c818475b8725ee08eb43b3e}{%
+           family={Sakashita},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{065f7e1eecde59f3b76ef28683499e83}
+      \strng{fullhash}{eca94d261258b75c63ee7150acf9203b}
+      \strng{bibnamehash}{eca94d261258b75c63ee7150acf9203b}
+      \strng{authorbibnamehash}{eca94d261258b75c63ee7150acf9203b}
+      \strng{authornamehash}{065f7e1eecde59f3b76ef28683499e83}
+      \strng{authorfullhash}{eca94d261258b75c63ee7150acf9203b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{High Pressure Research}
+      \field{number}{1}
+      \field{title}{Proton Diffusion in High Pressure Ice}
+      \field{volume}{22}
+      \field{year}{2002}
+      \field{pages}{9\bibrangedash 11}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1080/08957950211371
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,85 @@
+#!/bin/bash -l
+# Batch script to run an MPI parallel job with the upgraded software
+# stack under SGE with Intel MPI.
+
+# 1. Force bash as the executing shell.
+#$ -S /bin/bash
+
+# 2. Request ten minutes of wallclock time (format hours:minutes:seconds).
+#$ -l h_rt=02:00:00
+
+# Budget setting
+#$ -P Gold
+#$ -A UKCP_ED_P
+
+# 3. Request 1 gigabyte of RAM per process.
+#$ -l mem=1G
+
+# 4. Request 15 gigabyte of TMPDIR space per node (default is 10 GB)
+#$ -l tmpfs=15G
+
+# 5. Set the name of the job.
+#$ -N Ba-I-p
+
+# 6. Select the MPI parallel environment and 16 processes.
+#$ -pe mpi 48
+
+# 7. Set the working directory to somewhere in your scratch space.  This is
+# a necessary step with the upgraded software stack as compute nodes cannot
+# write to $HOME.
+# Replace "<your_UCL_id>" with your UCL user ID :
+##$ -wd /home/mmm0201/Scratch/output
+#$ -cwd
+
+# 8. Run our MPI job.  GERun is a wrapper that launches MPI jobs on our clusters.
+VASPBIN=$HOME/vasp/5.4.4-18apr2017/intel-2017/bin/vasp_std
+
+
+oldpress = 0
+for press in $(seq 0 50 1000); do
+
+mkdir -p $press
+cd $press
+
+cp ../POTCAR POTCAR
+cp ../KPOINTS KPOINTS
+
+sed "/PSTRESS/s/.*/PSTRESS = $press/g" ../INCAR > INCAR
+
+if [ -s CONTCAR ]; then
+  cp CONTCAR POSCAR
+else if [ -s ../$oldpress/CONTCAR ]; then
+  cp ../$oldpress/CONTCAR POSCAR
+else
+  cp ../POSCAR POSCAR
+fi
+fi
+
+# Run the program
+
+rm -f out-press-$press
+for iter in $(seq 1 5); do
+
+gerun $VASPBIN >> out-press-$press
+
+# An option to catch symmetry failures in the VASP run
+grep 'VERY BAD' out-press-$press
+if [ $? == "0" ]; then
+  echo "ISYM = 0" >> INCAR
+  echo "NEED TO SET ISYM = 0" >> out-press-$press
+  sed -i "/VERY BAD/d" out-press-$press
+  gerun $VASPBIN >> out-press-$press
+fi
+
+cp CONTCAR CONTCAR-$iter
+cp OUTCAR OUTCAR-$iter
+
+cp CONTCAR POSCAR
+
+done
+
+cd ..
+oldpress=$press
+
+done
+

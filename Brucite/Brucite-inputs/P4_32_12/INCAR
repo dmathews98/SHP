@@ -1,0 +1,23 @@
+# output options
+LWAVE  = .FALSE. # write or don't write WAVECAR
+LCHARG = .FALSE. # write or don't write CHG and CHGCAR
+LELF   = .FALSE. # write ELF
+
+# ionic relaxation
+PSTRESS = 0.001  # pressure in kbar
+ISIF = 3         # 2=fixed cell, 3=everything, 4=cell shape, 7=volume only
+NSW = 200        # max number of ionic steps
+IBRION = 2       # ionic relaxation algorithm
+
+# precision parameters
+EDIFF = 1E-5     # SCF convergence threshold; choose 1E-3 (very low precision) to 1E-7 (very precise)
+EDIFFG = -1E-3   # usually: 10 * EDIFF; if <0 refers to force criterion
+PREC = high      # precision low, med, high, accurate
+
+# electronic relaxation
+ISMEAR = 0       # Smearing of electronic DOS: -5 = tetraedon, 0 = Gaussian, 1..N = Methfessel
+SIGMA = 0.1      # Smearing width
+ENCUT = 400      # Plane wave cutoff energy
+
+NCORE = 6
+KPAR = 4

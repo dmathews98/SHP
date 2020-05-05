@@ -1,0 +1,175 @@
+%!PS-Adobe-2.0
+%%Title: Maple plot
+%%Creator: MapleV 
+%%DocumentFonts: /Courier
+%%Pages:  1
+%%BoundingBox:  -100 -100 3399 2549
+%%EndComments
+%%%% (actual BBox:  0 0 3299 2449)
+20 dict begin
+gsave
+/m {moveto} def
+/l {lineto} def
+/C {setrgbcolor} def
+/G {setgray} def
+/S {stroke} def
+/NP {newpath} def
+%%%%This draws a filled polygon and avoids bugs/features
+%%%%   of some postscript interpreters
+%%%%GHOSTSCRIPT: has a bug in reversepath - removing
+%%%%the call to reversepath is a sufficient work around
+/P {gsave fill grestore reversepath stroke} def
+%%%%This function is needed for drawing text
+/stringbbox {gsave NP 0 0 m false charpath flattenpath
+   pathbbox 4 2 roll pop pop 1.1 mul cvi exch 1.1 mul 
+   cvi exch grestore} def
+/lthick 3 def %% line thickness
+/athick 7 def %% axis thickness
+/tthick 1 def %% tickmark thickness
+/boundarythick 20 def %% thickness of bounding box
+%%%% Suggested alternate fonts:
+%%%% /Times-Roman findfont 60 scalefont setfont
+%%%% /Helvetica-Bold findfont 60 scalefont setfont
+/Courier findfont 60 scalefont setfont
+1 setlinejoin
+1 setlinecap
+0.0 setgray
+[] 0 setdash
+/inch {72 mul} def
+/fheight 0.35 inch neg def
+    0 G
+lthick setlinewidth
+lthick setlinewidth
+NP 329 523 m 382 588 l 438 658 l 495 727 l 549 793 l 604 858 l 658 922 l 714 988 l 769 1052 l 827 1119 l 
+878 1178 l 934 1245 l 989 1310 l 1047 1379 l 1097 1440 l 1156 1515 l 1209 1582 l 1265 1655 l 1317 1723 l 1374 1799 l 
+1429 1874 l 1485 1949 l 1537 2019 l 1593 2093 l 1621 2130 l 1635 2148 l 1642 2156 l 1649 2165 l 1662 2149 l 1675 2132 l 
+1702 2098 l 1756 2026 l 1813 1950 l 1869 1874 l 1922 1803 l 1981 1723 l 2034 1653 l 2089 1582 l 2143 1513 l 2199 1443 l 
+2253 1378 l 2309 1310 l 2362 1247 l 2419 1180 l 2474 1116 l 2529 1052 l 2585 986 l 2636 926 l 2695 857 l 2749 793 l 
+2803 727 l 2856 662 l 2916 589 l 2969 523 l S
+[3 5] 0 setdash NP 329 523 m 382 586 l 438 645 l 495 690 l 549 716 l 604 729 l 658 732 l 714 727 l 769 718 l 827 710 l 878 706 l 
+934 708 l 989 719 l 1047 743 l 1097 778 l 1126 805 l 1156 839 l 1209 914 l 1237 964 l 1265 1020 l 1317 1144 l 
+1346 1223 l 1374 1308 l 1429 1492 l 1485 1693 l 1537 1878 l 1565 1970 l 1593 2052 l 1607 2087 l 1621 2119 l 1635 2145 l 
+1642 2156 l 1649 2165 l 1662 2146 l 1675 2122 l 1702 2062 l 1729 1984 l 1756 1895 l 1813 1694 l 1869 1492 l 1922 1316 l 
+1951 1226 l 1981 1144 l 2034 1017 l 2062 962 l 2089 914 l 2143 837 l 2171 806 l 2199 779 l 2253 743 l 2309 719 l 
+2362 708 l 2419 706 l 2474 711 l 2529 718 l 2585 727 l 2636 731 l 2695 729 l 2749 716 l 2803 690 l 2856 649 l 
+2916 587 l 2969 523 l S
+[5] 0 setdash NP 329 523 m 382 584 l 410 611 l 438 631 l 467 643 l 495 647 l 522 645 l 549 637 l 604 609 l 658 571 l 714 529 l 
+769 491 l 827 457 l 878 433 l 934 411 l 989 397 l 1047 391 l 1097 395 l 1126 403 l 1156 417 l 1209 460 l 
+1237 495 l 1265 541 l 1291 594 l 1317 659 l 1346 745 l 1374 848 l 1402 964 l 1429 1095 l 1457 1242 l 1485 1401 l 
+1537 1706 l 1551 1786 l 1565 1862 l 1593 1999 l 1607 2056 l 1621 2104 l 1635 2141 l 1642 2155 l 1649 2165 l 1662 2143 l 
+1675 2110 l 1688 2066 l 1702 2015 l 1715 1953 l 1729 1885 l 1756 1735 l 1785 1570 l 1813 1403 l 1841 1244 l 1869 1095 l 
+1895 969 l 1922 857 l 1936 801 l 1951 749 l 1981 658 l 2008 592 l 2034 538 l 2062 494 l 2089 460 l 2116 435 l 
+2143 416 l 2199 395 l 2253 391 l 2309 397 l 2362 411 l 2419 432 l 2474 459 l 2529 491 l 2585 530 l 2636 568 l 
+2695 609 l 2749 637 l 2776 645 l 2803 647 l 2856 633 l 2886 613 l 2916 585 l 2969 523 l S
+[10 3] 0 setdash NP 329 523 m 382 582 l 410 602 l 438 612 l 467 610 l 495 599 l 549 558 l 604 507 l 658 461 l 714 426 l 769 404 l 
+827 391 l 878 383 l 934 376 l 989 365 l 1047 348 l 1097 329 l 1156 303 l 1209 285 l 1237 282 l 1265 287 l 
+1291 303 l 1317 332 l 1331 355 l 1346 383 l 1360 419 l 1374 461 l 1402 564 l 1415 627 l 1429 698 l 1443 778 l 
+1457 866 l 1471 961 l 1485 1064 l 1511 1270 l 1537 1488 l 1551 1605 l 1565 1719 l 1579 1827 l 1593 1926 l 1607 2013 l 
+1614 2051 l 1621 2084 l 1628 2112 l 1635 2136 l 1642 2153 l 1649 2165 l 1662 2138 l 1675 2092 l 1688 2028 l 1702 1950 l 
+1715 1857 l 1729 1754 l 1756 1530 l 1785 1293 l 1799 1178 l 1813 1067 l 1827 964 l 1841 867 l 1855 779 l 1869 698 l 
+1882 630 l 1895 569 l 1922 469 l 1936 424 l 1951 386 l 1966 356 l 1981 332 l 2008 302 l 2034 287 l 2062 282 l 
+2089 285 l 2143 303 l 2199 328 l 2253 349 l 2309 365 l 2362 375 l 2419 383 l 2474 391 l 2529 404 l 2585 426 l 
+2636 458 l 2695 507 l 2749 558 l 2776 580 l 2803 599 l 2830 610 l 2856 612 l 2886 603 l 2916 582 l 2969 523 l 
+S
+[2 3] 0 setdash NP 329 523 m 382 588 l 438 655 l 495 718 l 549 775 l 604 827 l 658 874 l 714 920 l 769 964 l 827 1009 l 878 1049 l 
+934 1097 l 989 1146 l 1047 1203 l 1097 1259 l 1156 1333 l 1209 1406 l 1265 1492 l 1317 1578 l 1374 1680 l 1429 1784 l 
+1485 1891 l 1537 1988 l 1593 2084 l 1621 2127 l 1635 2147 l 1642 2156 l 1649 2165 l 1662 2148 l 1675 2130 l 1702 2090 l 
+1756 1997 l 1813 1892 l 1869 1784 l 1922 1685 l 1981 1578 l 2034 1489 l 2089 1406 l 2143 1331 l 2199 1261 l 2253 1202 l 
+2309 1146 l 2362 1098 l 2419 1050 l 2474 1007 l 2529 964 l 2585 920 l 2636 878 l 2695 826 l 2749 775 l 2803 719 l 
+2856 659 l 2916 588 l 2969 523 l S
+%%%% The following puts the axes on the image.
+[] 0 setdash [] 0 setdash
+NP
+tthick setlinewidth
+1649 507 m
+1649 538 l
+S
+NP
+2969 507 m
+2969 538 l
+S
+NP
+2309 507 m
+2309 538 l
+S
+NP
+1649 507 m
+1649 538 l
+S
+NP
+989 507 m
+989 538 l
+S
+NP
+329 507 m
+329 538 l
+S
+NP
+athick setlinewidth
+329 523 m
+2969 523 l
+S
+NP
+tthick setlinewidth
+1628 523 m
+1670 523 l
+S
+NP
+1628 2165 m
+1670 2165 l
+S
+NP
+1628 1837 m
+1670 1837 l
+S
+NP
+1628 1508 m
+1670 1508 l
+S
+NP
+1628 1180 m
+1670 1180 l
+S
+NP
+1628 851 m
+1670 851 l
+S
+NP
+1628 523 m
+1670 523 l
+S
+NP
+athick setlinewidth
+1649 244 m
+1649 2204 l
+S
+(u) dup stringbbox 444 exch sub exch 2 idiv 2309 exch sub exch m show
+(0) dup stringbbox 507 exch sub exch 2 idiv 1649 exch sub exch m show
+(10) dup stringbbox 507 exch sub exch 2 idiv 2969 exch sub exch m show
+(5) dup stringbbox 507 exch sub exch 2 idiv 2309 exch sub exch m show
+(0) dup stringbbox 507 exch sub exch 2 idiv 1649 exch sub exch m show
+(-5) dup stringbbox 507 exch sub exch 2 idiv 989 exch sub exch m show
+(-10) dup stringbbox 507 exch sub exch 2 idiv 329 exch sub exch m show
+(0) dup stringbbox 2 idiv 523 exch sub exch 1628 exch sub exch m show
+(1) dup stringbbox 2 idiv 2165 exch sub exch 1628 exch sub exch m show
+(0.8) dup stringbbox 2 idiv 1837 exch sub exch 1628 exch sub exch m show
+(0.6) dup stringbbox 2 idiv 1508 exch sub exch 1628 exch sub exch m show
+(0.4) dup stringbbox 2 idiv 1180 exch sub exch 1628 exch sub exch m show
+(0.2) dup stringbbox 2 idiv 851 exch sub exch 1628 exch sub exch m show
+(0) dup stringbbox 2 idiv 523 exch sub exch 1628 exch sub exch m show
+boundarythick setlinewidth
+%%%% The following draws a box around the plot.
+%[] 0 setdash
+%NP
+%-80 -80 m
+%-80 2529 l
+%3379 2529 l
+%3379 -80 l
+%-80 -80 l
+%S
+%%%% Finally we generate the page.
+showpage
+grestore
+end
+%%Trailer
+%% END of Maple plot
